@@ -1,0 +1,137 @@
+/* body{
+    background-color: rgb(69, 69, 69);
+    background-image: url("https://www.iconspng.com/images/mariana-trench/mariana-trench.jpg");
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+} */
+
+/* Navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+li {
+  float: left;
+}
+  
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+  background-color: #111;
+}
+  
+.active {
+  background-color: rgb(66, 54, 175);
+}
+
+/* Navbar Header */
+.headerImage, .trenchImage {
+  width: 100%;
+  max-height: auto;
+  left: 0;
+  top: 57px;
+  position: absolute;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Home page */
+.homeP{
+  border: 3px solid black;
+  color:white;
+  margin:320px 400px 0px;
+	width:1000px;
+	height:200px;
+	background-color: rgb(75, 61, 61, 0.5);
+  padding-top:50px;
+  padding-bottom:50px;
+	font-size:3em;
+	font-family:monospace;
+  text-align:center;
+}
+
+/* Questions table*/
+.Q1, .Q2, .Q3, .Q4, .Q5, .Q6, .Q7, .hide{
+  border: 3px solid black;
+  color:white;
+	width:1000px;
+	height:200px;
+	background-color: rgb(75, 61, 61);
+  padding-top:50px;
+  padding-bottom:50px;
+	font-size:3em;
+	font-family:monospace;
+  text-align:center;
+}
+
+/* Fade out when clicking an answer */
+.hide{
+  animation: hide 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+/* Disappear when clicked */
+@keyframes hide{
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+
+.basic {   
+  top: 57px;
+  left: 0px;
+  right: 0px;
+  background-color: lightskyblue;
+    
+  padding-right: 200px;
+  padding-bottom: 10px;
+  padding-left: 200px;
+  position: absolute;
+}
+
+.hp1{
+  border: 3px solid black;
+  
+  padding-top: 40px;
+  padding-right: 100px;
+  padding-bottom: 700px;
+  padding-left: 100px;
+  background-color: lightslategray;
+  top: 57px;
+}
+
+.hi1, .ht1{
+  width: 600px;
+  height: 600px;
+  border: 3px solid black;
+  float: left;
+}
+
+.hi1{
+  margin-right:60px;
+}
+
+.ht1{
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: lightgray;
+  font-size:2em;
+}
